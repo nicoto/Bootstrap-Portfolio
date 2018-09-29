@@ -14,11 +14,14 @@
         <!-- When you have a few pages with identical content, you can use a canonical tag to tell search engines which page should be prioritized.-->
         <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
         <link href="URL" rel="canonical">
-        <link href="https://fonts.googleapis.com/css?family=Eczar:500|Gentium+Basic" rel="stylesheet"><link rel="stylesheet" type="text/css" href="./assets/css/main.css">
+        <!-- bootstrap -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Eczar:500|Gentium+Basic" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="./assets/css/main.css">
         <link rel="stylesheet" type="text/css" href="./assets/css/layout.css">
         <link rel="stylesheet" type="text/css" href="./assets/css/typography.css">
-<!--         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
- -->        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <title>Basic Portfolio - Nicholas Toulouse</title>
     </head>
 
@@ -31,13 +34,13 @@
         </header>
         <div class="container">
 
-            <section id="intro">
+            <section id="intro row">
 
-                <img src="./assets/images/cableCar.jpg" alt="hero image">
-                <nav id="mainNav" role="navigation">
-                    <div class="navbar">
-                        <h1 class="brand">Welcome<span>&nbsp;&&nbsp;Bienvenue</span></h1>
-                        <ul class="nav">  
+                <div class="col-md-12"><img src="./assets/images/cableCar.jpg" alt="hero image"></div>
+                <nav class="row" id="mainNav" role="navigation">
+                    <div class="navbar col-md-12">
+                        <h1 class="brand col-sm-5">Welcome<span>&nbsp;&&nbsp;Bienvenue</span></h1>
+                        <ul class="nav col-sm-5">  
                             <li style="display:none;">Tech</li> 
                             <li style="display:none;">Journal</li>   
                             <li style="display:none;">Games</li>
@@ -52,7 +55,8 @@
             </section>
             <!-- http://www.nicholastoulouse.com/?page_id=28 
             <aside class="sidedrawer"><p>placeholder</p></aside>-->
-            <main>
+            <main class="row">
+            <!-- <div class="col-md-12"> -->
                 <p>Front-end developer - ENTP, bootcamp graduate current in full stack JavaScript, HTML/CSS, Node.js, React, database best practices, hosting providers. Now seeking to leverage sales & marketing experience in IT management for Fortune 100 in a mid-size department or company. Also skilled in UX matters, I can help the business with strategic thinking, organize brainstorming sessions, work closely with designers, and oversee vendors. </p>
 
                 <p>Trained and re-certified in the latest tools and technologies in front-end design, full stack Javascript, and UX methodologies, I am technically proficient in the latest web technologies, graphic/interface design, and design thinking currently seeking an opportunity to apply this know-how in the professional environment of a small or medium size private company or in the public sector.</p>
@@ -62,13 +66,14 @@
                 <p>As a positive value add-on, I am acquainted with some aspects of business management having served sales and marketing management for a large corporation and taken business classes at Lehigh.</p>
 
                 <p>At SCRUM meetings, a standard question is what is your superpower? Even though I don't believe that superheroes exist, I think software creates a system that allows many minds working together in tandem to succeed together. System design is thus more than the usability of the user-interface or the efficiently of the software. Once upon a time a technology manager at Pfizer Inc desiging a new SFA system. During the discovery phase, I was able to sift through heaps of information gathered first-hand in the USA across the field and I helped consolidate a marketing distribution system in a large multiplex organization with many disparate working sales practices. Thus, I learned to serve the organization as a connector and a motivator between many cross-functional departments, to champion ideas, mandate and enforce priorities that improve software quality, and most importantly communicate requirements to executives and technical teams. These traits improve implementation of desired outcomes — I am therefore, results-oriented; all of which have contributed to Pfizer's excellent drug sales.</p>
+            <!-- </div> -->
             </main>
 
             <aside class="announcements"><p>placeholder</p></aside>
         </div> <!-- container -->
 
-        <footer>
-            <div class="footer">
+        <footer class="row"> <!-- row -->
+            <div class="footer col-md-12"> <!-- col-md-12 -->
                 <em>Copyright - All rights reserved</em>&nbsp;&nbsp;<i>(Last updated September, 2018)</i>
                 <i class="fa fa-twitter" aria-hidden="true"></i>
                 <i class="fa fa-facebook-official" aria-hidden="true"></i>
@@ -76,6 +81,9 @@
                 <i class="fa fa-github-square" aria-hidden="true"></i>
             </div>
         </footer>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     </body>
 
 </html>

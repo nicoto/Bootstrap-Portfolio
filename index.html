@@ -2,7 +2,6 @@
 
 <html>
     <head>
-        <link rel="stylesheet" type="text/css" href="css/style.css" />
         <meta charset="utf-8">
         <meta http-equiv="content-type" content="text/node; charset=utf-8" />
         <!-- SEO basics: https://www.link-assistant.com/news/html-meta-tags-for-seo.html -->
@@ -16,9 +15,10 @@
         <link href="URL" rel="canonical">
         <!-- bootstrap -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
         <link href="https://fonts.googleapis.com/css?family=Eczar:500|Gentium+Basic" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="./assets/css/main.css">
-        <link rel="stylesheet" type="text/css" href="./assets/css/layout.css">
+<!--         <link rel="stylesheet" type="text/css" href="./assets/css/main.css">
+        <link rel="stylesheet" type="text/css" href="./assets/css/layout.css"> -->
         <link rel="stylesheet" type="text/css" href="./assets/css/typography.css">
 
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -26,7 +26,7 @@
     </head>
 
     <body>
-        <header>
+        <header class="container">
             <div class="hgroup">
                 <h1>Nicholas Toulouse</h1>
                 <h3>San&nbsp;Francisco</h2>
@@ -55,7 +55,7 @@
             </section>
             <!-- http://www.nicholastoulouse.com/?page_id=28 
             <aside class="sidedrawer"><p>placeholder</p></aside>-->
-            <main class="row">
+            <main class="container">
             <!-- <div class="col-md-12"> -->
                 <p>Front-end developer - ENTP, bootcamp graduate current in full stack JavaScript, HTML/CSS, Node.js, React, database best practices, hosting providers. Now seeking to leverage sales & marketing experience in IT management for Fortune 100 in a mid-size department or company. Also skilled in UX matters, I can help the business with strategic thinking, organize brainstorming sessions, work closely with designers, and oversee vendors. </p>
 
@@ -69,16 +69,18 @@
             <!-- </div> -->
             </main>
 
-            <aside class="announcements"><p>placeholder</p></aside>
+            <aside class="announcements"><p></p></aside>
         </div> <!-- container -->
 
-        <footer class="row"> <!-- row -->
-            <div class="footer col-md-12"> <!-- col-md-12 -->
-                <em>Copyright - All rights reserved</em>&nbsp;&nbsp;<i>(Last updated September, 2018)</i>
-                <i class="fa fa-twitter" aria-hidden="true"></i>
-                <i class="fa fa-facebook-official" aria-hidden="true"></i>
-                <i class="fa fa-linkedin" aria-hidden="true"></i>
-                <i class="fa fa-github-square" aria-hidden="true"></i>
+        <footer class="container"> <!-- row -->
+            <div class="row">
+                <div class="footer col-md-12"> <!-- col-md-12 -->
+                    <em>Copyright - All rights reserved</em>&nbsp;&nbsp;<i>(Last updated September, 2018)</i>
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                    <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                    <i class="fa fa-github-square" aria-hidden="true"></i>
+                </div>
             </div>
         </footer>
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

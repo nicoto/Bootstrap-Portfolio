@@ -28,60 +28,67 @@
     <title>Basic Portfolio - Nicholas Toulouse</title>
 </head>
 <body>
-    <header>
+    <header class="container">
         <div class="hgroup">
             <h1>Nicholas Toulouse</h1>
             <h3>San&nbsp;Francisco</h2>
-            </div>
-        </header>
+        </div>
+    </header>
+
+    <section id="intro">
         <div class="container">
-
-            <section id="intro row">
-
-                <div class="col-md-12"><img src="./assets/images/cableCar.jpg" alt="hero image"></div>
-                <nav class="row" id="mainNav" role="navigation">
-                    <div class="navbar col-md-12">
-                        <h1 class="brand col-sm-5">Welcome<span>&nbsp;&&nbsp;Bienvenue</span></h1>
-                        <ul class="nav col-sm-5">  
-                            <li style="display:none;">Tech</li> 
-                            <li style="display:none;">Journal</li>   
-                            <li style="display:none;">Games</li>
-                            <li style="display:none;">Algorithms</li>
-                            <li class="page icon home"><a href="./index.html"><span>Intro</span></a></li>
-                            <li class="page icon work"><a href="./portfolio.html"><span>Work</span></a></li> 
-                            <li style="display:none;" class="page icon blog"><a href="blog.html"><span>Blog</span></a></li> 
-                            <li class="page icon contact"><a href="contact.html"><span>Contact</span></a></li> 
-                        </ul> 
-                    </div> <!-- navbar -->
-                </nav> <!-- nav -->
-            </section>
-        <main class="contentContainer row">
-            <h2>Contact</h2>
-            <hr/>
-            <br />
-            <form>
-                <label for="name" style="padding-left:10px">Name</label> <br>
-                <input type="text" id="name" size="15"placeholder="John Smith">
-                <br><br>
-                <label for="email" style="padding-left:10px">Email</label> <br>
-                <input type="text" size="15" id="email" placeholder="example@gmail.com">
-                <br><br>
-                <label for="message" style="padding-left:10px">Message</label> <br>
-                <textarea type="text" size="15" id="message" placeholder="Type your message here"></textarea><br>
-                <input type="submit" id="submit" value="Submit">            
-            </form>
+            <div class="row">
+                <img class="col-md-12" src="./assets/images/cableCar.jpg" alt="hero image">
+            </div>
+            <nav class="container" id="mainNav" role="navigation">
+                <div class="navbar row">
+                    <h1 class="brand col-md-4 col-sm-6">Welcome<span>&nbsp;&&nbsp;Bienvenue</span></h1>
+                    <ul class="nav col-md-8 col-sm-6">  
+                        <li style="display:none;">Tech</li> 
+                        <li style="display:none;">Journal</li>   
+                        <li style="display:none;">Games</li>
+                        <li style="display:none;">Algorithms</li>
+                        <li class="page icon home"><a href="./index.html"><span>Intro</span></a></li>
+                        <li class="page icon work"><a href="./portfolio.html"><span>Work</span></a></li> 
+                        <li style="display:none;" class="page icon blog"><a href="blog.html"><span>Blog</span></a></li> 
+                        <li class="page icon contact"><a href="contact.html"><span>Contact</span></a></li> 
+                    </ul> 
+                </div> <!-- navbar -->
+            </nav> <!-- nav -->
+        </div> <!-- container -->
+    </section>
+        <main class="contentContainer container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Contact</h2>
+                    <hr/>
+                    <br />
+                    <form>
+                        <label for="name" style="padding-left:10px">Name</label> <br>
+                        <input type="text" id="name" size="15"placeholder="John Smith">
+                        <br><br>
+                        <label for="email" style="padding-left:10px">Email</label> <br>
+                        <input type="text" size="15" id="email" placeholder="example@gmail.com">
+                        <br><br>
+                        <label for="message" style="padding-left:10px">Message</label> <br>
+                        <textarea type="text" size="15" id="message" placeholder="Type your message here"></textarea><br>
+                        <input type="submit" id="submit" value="Submit">            
+                    </form>
+                </div>
+            </div>
         </main> 
 
-        <aside class="announcements"><p>placeholder</p></aside>
-        </div> <!-- container -->
+        <aside class="announcements"><p></p></aside>
         <br/>
-        <footer>
-            <div class="footer row">
-                <em>Copyright - All rights reserved</em>&nbsp;&nbsp;<i>(Last updated September, 2018)</i>
-                <i class="fa fa-twitter" aria-hidden="true"></i>
-                <i class="fa fa-facebook-official" aria-hidden="true"></i>
-                <i class="fa fa-linkedin" aria-hidden="true"></i>
-                <i class="fa fa-github-square" aria-hidden="true"></i>
+        <footer class="container">
+            <div class="row">
+                <div class="footer col-md-12">
+                    <em>Copyright - All rights reserved</em>&nbsp;&nbsp;<i>(Last updated September, 2018)</i>
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                    <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                    <i class="fa fa-github-square" aria-hidden="true"></i>
+                </div>
             </div>
         </footer>
 
